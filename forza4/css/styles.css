@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-color:dodgerblue;
+}
+
+#grid {
+    width: 700px;
+    height: 600px;
+
+    background-color: blue;
+    border: 10px solid navy;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
